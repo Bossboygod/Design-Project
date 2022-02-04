@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>My First Website | Landing Page</title>
+</head>
+<body>
+    <main class="main">
+        <div class="container">
+            <div class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#">HOME</a></li>
+                    <li class="nav-item"><a href="#about">ABOUT</a></li>
+                    <li class="nav-item"><a href="#contact">CONTACT</a></li>
+                    <li class="nav-item"><a href="#login">LOGIN</a></li>
+                </ul>
+            </div>
+            <div class="background">
+                <div class="bodytext">
+                    <h1>MY FIRST WEBSITE</h1>
+                    <h3>Welcome to my first website</h3>
+                </div>
+            </div>
+            <br>
+            <div class="services">
+                <h1>Services</h1>
+                <div class="servicesbox">
+                    <div class="box box1">
+                        <p>Food Photography</p>
+                    </div>
+                    <div class="box box2">
+                        <p>Portrait Photography</p>
+                    </div>
+                    <div class="box box3">
+                        <p>Product Photography</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="about" id="about">
+                <h1>About The Company</h1>
+                <div class="aboutus">
+                    <img src="img/william-thomas-ny6tO4ItOEY-unsplash.jpg" width="50%">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit magnam aliquam consequatur nulla qui? 
+                        Dicta veritatis quam inventore quod cum ipsam officia quos corporis neque officiis, 
+                        perferendis labore nesciunt ad? Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Voluptatem,consequuntur ullam officia necessitatibus modi ab sequi. 
+                        Veritatis perspiciatis in quod consequuntur,a ea tenetur quae cum et placeat consectetur eveniet.</p>
+                </div>
+            </div>
+            <div class="ender">
+                <div class="contact" id="contact">
+                    <h1>Contact Us</h1>
+                    <form>
+                        <div class="row">
+                          <div class="col-25">
+                            <label for="name">Name</label>
+                          </div>
+                          <div class="col-75">
+                            <input type="text" id="name" name="name" placeholder="Your name..">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-25">
+                            <label for="email">Email</label>
+                          </div>
+                          <div class="col-75">
+                            <input type="text" id="email" name="email" placeholder="Your email...">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-25">
+                            <label for="number">Telphone</label>
+                          </div>
+                          <div class="col-75">
+                            <input type="text" id="number" name="number" placeholder="Your Phone number...">   
+                          </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                              <label for="subject">Subject</label>
+                            </div>
+                            <div class="col-75">
+                              <input type="text" id="subject" name="subject" placeholder="Subject of Contact...">
+                            </div>
+                          </div>
+                        <div class="row">
+                          <div class="col-25">
+                            <label for="subject">Message</label>
+                          </div>
+                          <div class="col-75">
+                            <textarea id="subject" name="subject" placeholder="Leave a Message.." style="height:200px"></textarea>
+                          </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                          <input type="submit" value="Submit">
+                        </div>
+                        </form>
+                        <div class="leadtext">
+                            <p>Our representatives will get back to you within 12 hours</p>
+                        </div>
+                </div>
+                <div class="final">
+                    <div class="searchbox">
+                        <input type="search" placeholder="Search....">
+                    </div>
+                    <hr>
+                    <div class="login" id="login">
+                        <h2>Welcome Back :)...</h2>
+                        <p>To view more of our pictures please login</p>
+                        <p></p>
+                        <div class="row1">
+                            <input type="text" name="username" class="username" id="username" placeholder="Username....">
+                            <br>
+                            <br>
+                            <input type="password" name="password" id="password" placeholder="Password....">
+                        </div>
+                        <div class="endergame">
+                            <input type="checkbox" value="lsRememberMe" id="rememberMe"><label for="rememberMe">Remember me</label>
+                            <p>Forgot Password?</p>
+                        </div>
+                        <div class="button">
+                            <button class="btn" value="Login">Login</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <p>Copyright &copy; 2022. Designed By BOSSBOY</p>
+        </footer>
+    </main>
+</body>
+</html>
